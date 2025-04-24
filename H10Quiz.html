@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        td, th {
+            border: 1px solid red;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>테이블연습 - 오늘의 수입/지출</h2>
+    <table style="border-collapse: collapse; border: 1px solid red; width: 60%;
+    ">
+        <thead style="background-color: yellow;">
+            <td colspan="3">오늘의 수입/지출</td>
+            <!-- <td></td>
+            <td></td> -->
+            <tr style="background-color: pink; text-align: center; height: 60px;">
+                <th >내용</th>
+                <th >수입</th>
+                <th >지출</th>
+            </tr>
+        </thead>
+    <tbody>
+        <tr style="text-align: center;">
+            <td>월급</td>
+            <td>1,000,000</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">점심값</td>
+            <td></td>
+            <td>8,000</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">부모님선물</td>
+            <td></td>
+            <td>100,000</td>
+        </tr>
+    </tbody>
+        <tr>
+            <th rowspan="3" style="background-color: pink;
+                text-align: center;">총계</th>
+            <td>수입</td>
+            <td>지출</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td>1,000,000</td>
+            <td>108,000</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td>남은돈</td>
+            <td>892,000</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>H16Semantic2.html</title>
+</head>
+<body>
+  <h2>figure, figcaption 태그</h2>
+  <figure id="1-1">
+    <figcaption>alert() 함수 활용</figcaption>
+    <pre>
+      <code>function f() {
+        alert("경고합니다.");
+      }
+      </code>
+    </pre>
+    <hr>
+    <small>실행결과</small>
+    <pre>
+      <img src="./images/alert.png" alt="실행결과">
+    </pre>
+  </figure>
+
+  <h2>details, summary 태그</h2>
+  <details>
+    <summary>Question 1</summary>
+    <p>웹 개발자가 알아야 하는 언어 3가지?</p>
+  </details>
+  <details>
+    <summary>Answer 1</summary>
+    <p>HTML5, CSS, JavaScript</p>
+  </details>
+
+  <h2>시맨틱 인라인 태그</h2>
+  텍스트의 일부를 마크업하는 HTMLS 시맨틱 태그
+  <p>
+    내일 <mark>HTML5 시험</mark><br>
+    시간은 <time>09:00</time><br>
+    난이도 <meter value="0.8" max="1.0">80%</meter><br>
+    자료 업로딩(20%)
+    <progress value="2" max="10"></progress><br>
+  </p>
+</body>
+</html>
